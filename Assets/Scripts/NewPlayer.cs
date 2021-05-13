@@ -5,6 +5,7 @@ using UnityEngine;
 public class NewPlayer : PhysicsObject
 {
     [SerializeField] private float maxSpeed = 1;
+    [SerializeField] private float jumpPower = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +19,7 @@ public class NewPlayer : PhysicsObject
 
         if (Input.GetButtonDown("Jump") && grounded)
         {
-            velocity.y = 10;
+            velocity.y = jumpPower;
         }
     }
 }
