@@ -113,28 +113,6 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1699, y: 1429}
-  - name: Background
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 3840
-      height: 2160
-    spriteID: fb2906d2c3b20ac40a227d7d30853d51
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
   - name: Player
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -157,6 +135,50 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1989, y: -1353}
+  - name: Coin
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3852
+      y: 143
+      width: 57
+      height: 57
+    spriteID: f42d8bf0aaabf9547bebb5ff8723f1f4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1527, y: -1438}
+  - name: Background (reference)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 3840
+      height: 2160
+    spriteID: 747308af11f8050488cdd51b85fb4a7b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -176,6 +198,13 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Coin
+    spriteName: Coin
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f42d8bf0aaabf9547bebb5ff8723f1f4
+    layerID: 5
+    mosaicPosition: {x: 3852, y: 143}
   - name: Player
     spriteName: Player
     isGroup: 0
@@ -190,12 +219,12 @@ ScriptedImporter:
     spriteID: b98e831fb6cc2e24598fc5fbefc4f3dd
     layerID: 2
     mosaicPosition: {x: 4, y: 2172}
-  - name: Background
-    spriteName: Background
+  - name: Background (reference)
+    spriteName: Background (reference)
     isGroup: 0
     parentIndex: -1
-    spriteID: fb2906d2c3b20ac40a227d7d30853d51
-    layerID: 1
+    spriteID: 747308af11f8050488cdd51b85fb4a7b
+    layerID: 4
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
