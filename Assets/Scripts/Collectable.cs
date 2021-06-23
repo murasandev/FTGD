@@ -42,6 +42,7 @@ public class Collectable : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             _player.coinsCollected += 1;
+            _player.UpdateUI();
             Destroy(this.gameObject);
         }
     }
